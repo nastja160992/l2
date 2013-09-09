@@ -1,2 +1,1 @@
-l2
-==
+Minsk weather forecast.
