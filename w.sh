@@ -11,6 +11,7 @@ do
 	then
 		echo "\n"
 		wget -q -O weather.dump http://www.weathercity.com/by/minsk
+		sed 's/<[^<>]*>//g' weather.dump
 	else
 		echo "No Internet connection."
 	fi
