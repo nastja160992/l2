@@ -3,7 +3,7 @@ check_connection()
 	return 1
 }
 
-TIME=$(awk -F "=" '/TIME/{print $2}' weather.ini)
+TIME=$(awk -F "=" '/TIME/{print $2}' w.ini)
 
 while true
 do
